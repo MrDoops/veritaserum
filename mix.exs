@@ -53,7 +53,7 @@ defmodule Veritaserum.Mixfile do
 
   defp deps do
     [
-      {:poison, ">= 2.0.0"},
+      {:poison, "~> 2.0.0", override: true},
       {:credo, "~> 0.3", only: [:dev, :test]},
       {:coverex, "~> 1.4", only: :test},
       {:ex_doc, "~> 0.15.1", only: :dev, runtime: false},
